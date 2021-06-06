@@ -1,3 +1,6 @@
+@import url(./button.css);
+@import url(./header.css);
+
 :root {
   --gradient: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
@@ -25,9 +28,4 @@ body {
   background: var(--gradient);
   min-block-size: 100vh;
   font: var(--body1);
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
 }
