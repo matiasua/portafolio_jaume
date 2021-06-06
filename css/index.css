@@ -5,11 +5,26 @@
       rgba(255, 255, 255, 0) 100%
     ),
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+  --fontBase: "Poppins", sans-serif;
+  --headline1: bold 95px / 153.71px var(--fontBase);
+  --headline2: bold 59px / 95px var(--fontBase);
+  --headline3: bold 48px / 78px var(--fontBase);
+  --headline4: bold 34px / 55px var(--fontBase);
+  --headline5: bold 24px / 39px var(--fontBase);
+  --body1: normal 16px / 25px var(--fontBase);
+  --body2: normal 14px / 22px var(--fontBase);
+  --button: bold 14px / 23px var(--fontBase);
+  --caption: normal 12px / 19px var(--fontBase);
+  --purple: #310a90;
+  --green: #42e2b8;
+  --white: #ffffff;
+  --gradient-color: linear-gradient(135deg, #fad7a1 0%, #e96d71 100%);
 }
 
 body {
   background: var(--gradient);
   min-block-size: 100vh;
+  font: var(--body1);
 }
 
 .header {
