@@ -3,6 +3,7 @@
 @import url(./header.css);
 @import url(./hero.css);
 @import url(./wrapper.css);
+@import url(./menu.css);
 
 :root {
   --gradient: radial-gradient(
