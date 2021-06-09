@@ -5,6 +5,7 @@
 @import url(./wrapper.css);
 @import url(./menu.css);
 @import url(./comment.css);
+@import url(./testimony.css);
 
 :root {
   --gradient: radial-gradient(
