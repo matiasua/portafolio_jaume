@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio de Jaume</title>
+    <title>Portafolio de Matias</title>
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -17,7 +17,7 @@
     <div class="wrapper">
       <header class="header">
         <img src="./images/logo.png" width="70" height="20" alt="logo" />
-        <nav class="menu">
+        <nav class="menu" aria-label="main-navigation">
           <ul>
             <li><a class="is-active" href="#main">Hola</a></li>
             <li><a href="#project">Proyectos</a></li>
@@ -27,7 +27,7 @@
         <button class="button">CURRÍCULUM</button>
       </header>
 
-      <section class="hero" id="main">
+      <section aria-label="main" class="hero" id="main">
         <div class="hero-image">
           <img
             src="./images/jaume2x.png"
@@ -39,13 +39,13 @@
         <div class="hero-description">
           <h1>
             <span>¡Hola a todos!</span>
-            <span>Soy Jaume</span>
+            <span>Soy Matias</span>
           </h1>
           <p>
             Frontend Developer que le encanta implementar diseños que inspiran y
             atraen a las personas.
           </p>
-          <div class="hero-social">
+          <div class="social">
             <a class="button-icon" href="tel:994888611"
               ><img src="./icons/icon-phone.svg" alt="icono-telefono"
             /></a>
@@ -64,7 +64,7 @@
           >
         </div>
       </section>
-      <section class="comment-project">
+      <!--<section class="comment-project">
         <p class="coment-first-text">
           A lo largo de mi carrera como Frontend, he tenido el privilegio de
           trabajar en proyectos retadores e increíbles
@@ -79,18 +79,86 @@
             alt="Flecha purpura apuntando hacia abajo"
           />
         </a>
-      </section>
-      <div class="testimony">
+      </section>-->
+      <div class="web">
+        <div class="web-image">
+          <img src="./images/website.png" alt="website" class="web-image">
+        </div>
+        <div class="web-description">
+          <a class="web-title" target="_blank" href="#">mcardenas.dev</a>
+          <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
+            tus habilidades como desarrollador Front-End.
+          </p>
+          <a target="_blank" href="#" class="button is-secondary">VER CÓDIGO</a>
+          <a target="_blank" href="#" class="button">VER PROYECTO</a>
+         </div>
+      </div>
+     <!--<div class="testimony">
         <img src="./images/user.png" alt="imagen-testimonio-leonidas" />
         <p class="testimony-comment">
-          "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+          "Matias ha sido de gran ayuda para acelerar ciertos esfuerzos de
           desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
           meses."
         </p>
         <p class="testimony-name">
           LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
         </p>
+      </div> -->
+      <div class="web">
+        <div class="web-image">
+          <img src="./images/marvol.png" alt="tablet-marvol" class="web-image">
+        </div>
+        <div class="web-description">
+          <a class="web-title" target="_blank" href="#">MARVOL</a>
+          <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.
+          </p>
+          <a target="_blank" href="#" class="button is-secondary">VER CÓDIGO</a>
+          <a target="_blank" href="#" class="button">VER PROYECTO</a>
+         </div>
       </div>
+      <!-- <div class="testimony">
+        <img src="./images/user.png" alt="imagen-testimonio-leonidas" />
+        <p class="testimony-comment">
+          "Matias ha sido de gran ayuda para acelerar ciertos esfuerzos de
+          desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+          meses."
+        </p>
+        <p class="testimony-name">
+          LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
+        </p>
+      </div> -->
+      <div class="web">
+        <div class="web-image">
+          <img src="./images/netnet.png" alt="phone-netnet" class="web-image">
+        </div>
+        <div class="web-description">
+          <a class="web-title" target="_blank" href="#">NETNET</a>
+          <p>Películas y series ilimitadas y mucho más.
+            Disfruta donde quieras. Cancela cuando quieras.
+          </p>
+          <a target="_blank" href="#" class="button is-secondary">VER CÓDIGO</a>
+          <a target="_blank" href="#" class="button">VER PROYECTO</a>
+         </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-logo">
+          <img src="./images/logo.png" width="70" height="20" alt="logo" />
+        </div>
+        <div class="social">
+          <a class="button-icon" href="tel:994888611"><img src="./icons/icon-phone.svg" alt="icono-telefono"/></a>
+          <a class="button-icon" href="#"><img src="./icons/icon-important_mail.svg" alt="icono-mail"/></a>
+          <a class="button-icon" href="#"
+            ><img src="./icons/icon-instagram.svg" alt="icono-instagram"
+          /></a>
+          <a class="button-icon" href="#"
+            ><img src="./icons/icon-twitter_squared.svg" alt="icono-twitter"
+          /></a>
+        </div>
+        <div class="footer-copyright">
+          <p>Hecho con el 🤍 por Matias.</p>
+          <p> Copyright 2021 - Todos los derechos reservados.</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

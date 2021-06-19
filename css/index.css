@@ -6,6 +6,9 @@
 @import url(./menu.css);
 @import url(./comment.css);
 @import url(./testimony.css);
+@import url(./web.css);
+@import url(./social.css);
+@import url(./footer.css);
 
 :root {
   --gradient: radial-gradient(
