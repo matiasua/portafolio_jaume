@@ -14,19 +14,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
   </head>
   <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-content">
+          <img src="./images/logo.png" width="70" height="20" alt="logo" />
+          <nav class="menu" aria-label="main-navigation">
+            <ul>
+              <li><a class="is-active" href="#main">Hola</a></li>
+              <li><a href="#project">Proyectos</a></li>
+              <li><a href="#contact">Hablemos</a></li>
+            </ul>
+          </nav>
+          <button class="button">CURRÍCULUM</button>
+        </div>
+      </div>
+    </header>
     <div class="wrapper">
-      <header class="header">
-        <img src="./images/logo.png" width="70" height="20" alt="logo" />
-        <nav class="menu" aria-label="main-navigation">
-          <ul>
-            <li><a class="is-active" href="#main">Hola</a></li>
-            <li><a href="#project">Proyectos</a></li>
-            <li><a href="#contact">Hablemos</a></li>
-          </ul>
-        </nav>
-        <button class="button">CURRÍCULUM</button>
-      </header>
-
       <section aria-label="main" class="hero" id="main">
         <div class="hero-image">
           <img
@@ -64,7 +67,7 @@
           >
         </div>
       </section>
-      <!--<section class="comment-project">
+      <section class="comment-project">
         <p class="coment-first-text">
           A lo largo de mi carrera como Frontend, he tenido el privilegio de
           trabajar en proyectos retadores e increíbles
@@ -79,21 +82,22 @@
             alt="Flecha purpura apuntando hacia abajo"
           />
         </a>
-      </section>-->
-      <div class="web">
+      </section>
+      <div class="web" id="project">
         <div class="web-image">
-          <img src="./images/website.png" alt="website" class="web-image">
+          <img src="./images/website.png" alt="website" class="web-image" />
         </div>
         <div class="web-description">
-          <a class="web-title" target="_blank" href="#">mcardenas.dev</a>
-          <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
-            tus habilidades como desarrollador Front-End.
+          <a class="title" target="_blank" href="#">mcardenas.dev</a>
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
           </p>
           <a target="_blank" href="#" class="button is-secondary">VER CÓDIGO</a>
           <a target="_blank" href="#" class="button">VER PROYECTO</a>
-         </div>
+        </div>
       </div>
-     <!--<div class="testimony">
+      <div class="testimony">
         <img src="./images/user.png" alt="imagen-testimonio-leonidas" />
         <p class="testimony-comment">
           "Matias ha sido de gran ayuda para acelerar ciertos esfuerzos de
@@ -103,60 +107,120 @@
         <p class="testimony-name">
           LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
         </p>
-      </div> -->
+      </div>
       <div class="web">
         <div class="web-image">
-          <img src="./images/marvol.png" alt="tablet-marvol" class="web-image">
+          <img
+            src="./images/marvol.png"
+            alt="tablet-marvol"
+            class="web-image"
+          />
         </div>
         <div class="web-description">
-          <a class="web-title" target="_blank" href="#">MARVOL</a>
-          <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.
+          <a class="title" target="_blank" href="#">MARVOL</a>
+          <p>
+            Es el sitio oficial de Marvol Entertainment. Explore películas,
+            personajes, cómics, programas de televisión, videos y más oficiales
+            de Marvol.
           </p>
           <a target="_blank" href="#" class="button is-secondary">VER CÓDIGO</a>
           <a target="_blank" href="#" class="button">VER PROYECTO</a>
-         </div>
+        </div>
       </div>
-      <!-- <div class="testimony">
-        <img src="./images/user.png" alt="imagen-testimonio-leonidas" />
+      <div class="testimony">
+        <img src="./images/user_3.png" alt="imagen-testimonio-jason" />
         <p class="testimony-comment">
-          "Matias ha sido de gran ayuda para acelerar ciertos esfuerzos de
-          desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
-          meses."
+          "Matias ha superado mis expectativas desde el diseño hasta el
+          desarrollo".
         </p>
-        <p class="testimony-name">
-          LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
-        </p>
-      </div> -->
+        <p class="testimony-name">JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+      </div>
       <div class="web">
         <div class="web-image">
-          <img src="./images/netnet.png" alt="phone-netnet" class="web-image">
+          <img src="./images/netnet.png" alt="phone-netnet" class="web-image" />
         </div>
         <div class="web-description">
-          <a class="web-title" target="_blank" href="#">NETNET</a>
-          <p>Películas y series ilimitadas y mucho más.
+          <a class="title" target="_blank" href="#">NETNET</a>
+          <p>
+            Películas y series ilimitadas y mucho más.<br />
             Disfruta donde quieras. Cancela cuando quieras.
           </p>
           <a target="_blank" href="#" class="button is-secondary">VER CÓDIGO</a>
           <a target="_blank" href="#" class="button">VER PROYECTO</a>
-         </div>
+        </div>
       </div>
-      <footer class="footer">
-        <div class="footer-logo">
-          <img src="./images/logo.png" width="70" height="20" alt="logo" />
+      <div class="testimony">
+        <img src="./images/user_2.png" alt="imagen-testimonio-marco" />
+        <p class="testimony-comment">
+          "Por primera vez en la historia de nuestra empresa, aparecimos en
+          todas las plataformas en las que trabajamos".
+        </p>
+        <p class="testimony-name">MARCO CORTEZ / NETNET</p>
+      </div>
+      <form class="form" id="contact" action="" method="POST">
+        <div class="form-content">
+          <h2 class="title">HABLEMOS</h2>
+          <p>
+            Si está interesado en trabajar conmigo en su próximo proyecto, no
+            dude en ponerse en contacto conmigo.
+          </p>
+          <label for="form-name">
+            Nombre Completo
+            <input
+              required
+              name="name"
+              id="form-name"
+              type="text"
+              placeholder="Juan"
+            />
+          </label>
+          <label for="form-email">
+            Correo Electrónico
+            <input
+              required
+              name="email"
+              id="form-email"
+              type="email"
+              placeholder="juan@gmail.com"
+            />
+          </label>
+          <label for="form-message" placeholder="Mensaje" id="form-message">
+            Mensaje
+            <textarea
+              name="message"
+              id="form-message"
+              type="text"
+              cols="30"
+              rows="5"
+              placeholder="Escribe aquí tu mensaje"
+            ></textarea>
+          </label>
+          <button class="button" type="submit">Enviar mensaje</button>
         </div>
-        <div class="social">
-          <a class="button-icon" href="tel:994888611"><img src="./icons/icon-phone.svg" alt="icono-telefono"/></a>
-          <a class="button-icon" href="#"><img src="./icons/icon-important_mail.svg" alt="icono-mail"/></a>
-          <a class="button-icon" href="#"
-            ><img src="./icons/icon-instagram.svg" alt="icono-instagram"
-          /></a>
-          <a class="button-icon" href="#"
-            ><img src="./icons/icon-twitter_squared.svg" alt="icono-twitter"
-          /></a>
-        </div>
-        <div class="footer-copyright">
-          <p>Hecho con el 🤍 por Matias.</p>
-          <p> Copyright 2021 - Todos los derechos reservados.</p>
+      </form>
+      <footer class="footer" id="contact">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="./images/logo.png" width="70" height="20" alt="logo" />
+          </div>
+          <div class="social">
+            <a class="button-icon" href="tel:994888611"
+              ><img src="./icons/icon-phone.svg" alt="icono-telefono"
+            /></a>
+            <a class="button-icon" href="#"
+              ><img src="./icons/icon-important_mail.svg" alt="icono-mail"
+            /></a>
+            <a class="button-icon" href="#"
+              ><img src="./icons/icon-instagram.svg" alt="icono-instagram"
+            /></a>
+            <a class="button-icon" href="#"
+              ><img src="./icons/icon-twitter_squared.svg" alt="icono-twitter"
+            /></a>
+          </div>
+          <div class="footer-copyright">
+            <p>Hecho con el 🤍 por Matias.</p>
+            <p>Copyright 2021 - Todos los derechos reservados.</p>
+          </div>
         </div>
       </footer>
     </div>

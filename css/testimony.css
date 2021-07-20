@@ -3,13 +3,19 @@
   border: white solid 4px;
   padding-inline-start: 80px;
   padding-inline-end: 80px;
-  padding-block-start: 76px;
-  padding-block-end: 76px;
+  padding-block-start: 80px;
+  padding-block-end: 80px;
   background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 0, 0, 0))
       padding-box,
     linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2))
       border-box;
   text-align: center;
+  margin-block-start: 80px;
+  margin-block-end: 80px;
+}
+
+.testimony p {
+  margin: 0;
 }
 
 .testimony img {
